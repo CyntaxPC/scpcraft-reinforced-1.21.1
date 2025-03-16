@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.swamp_woman_music_disc.desc"
+  },
+  "length_in_seconds": 139.0,
+  "sound_event": "scpcraftreinforced:swamp_woman_song"
+}

@@ -1,0 +1,139 @@
+{
+  "gender_switcher_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:gender_switcher_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "burning_man_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:burning_man_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "eyepods_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:eyepods_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "red_ice_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:red_ice_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "swamp_woman_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:swamp_woman_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "unseen_mold_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:unseen_mold_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "dark_form_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:dark_form_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "telekill_alloy_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:telekill_alloy_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "skeleton_key_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:skeleton_key_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "super_ball_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:super_ball_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "fountain_of_youth_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:fountain_of_youth_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "everything_tree_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:everything_tree_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "rewind_man_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:rewind_man_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "song_of_genesis_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:song_of_genesis_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "eye_spiders_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:eye_spiders_song",
+        "stream": true
+      }
+    ]
+  }
+
+
+
+}

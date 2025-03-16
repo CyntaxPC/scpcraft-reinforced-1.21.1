@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.red_ice_music_disc.desc"
+  },
+  "length_in_seconds": 163.0,
+  "sound_event": "scpcraftreinforced:red_ice_song"
+}

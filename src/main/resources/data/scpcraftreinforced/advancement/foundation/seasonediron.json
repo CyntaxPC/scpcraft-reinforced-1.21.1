@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "scpcraftreinforced:iron_blast"
+    },
+    "title": "Seasoned Iron",
+    "description": "Mix iron and charcoal loosely together!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scpcraftreinforced:foundation/foundationroot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scpcraftreinforced:iron_blast"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

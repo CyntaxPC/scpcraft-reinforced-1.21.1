@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.unseen_mold_music_disc.desc"
+  },
+  "length_in_seconds": 115.0,
+  "sound_event": "scpcraftreinforced:unseen_mold_song"
+}

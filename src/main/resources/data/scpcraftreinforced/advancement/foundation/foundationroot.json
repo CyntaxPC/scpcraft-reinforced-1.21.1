@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "scpcraftreinforced:blister_steel_block"
+    },
+    "title": "SCP Foundation",
+    "description": "Secure, Contain, Protect!",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "scpcraftreinforced:textures/block/blister_steel_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

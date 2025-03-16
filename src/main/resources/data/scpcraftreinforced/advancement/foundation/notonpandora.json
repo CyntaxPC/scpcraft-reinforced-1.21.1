@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "scpcraftreinforced:iridium_ingot"
+    },
+    "title": "Not on Pandora",
+    "description": "Mine iridium as deep as you can dig.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scpcraftreinforced:foundation/foundationroot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scpcraftreinforced:raw_iridium",
+              "scpcraftreinforced:deepslate_iridium_ore"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

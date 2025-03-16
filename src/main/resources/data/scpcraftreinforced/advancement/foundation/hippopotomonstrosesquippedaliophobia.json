@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "scpcraftreinforced:cracked_polished_deep_granite_bricks_stairs"
+    },
+    "title": "Thippopotomonstrosesquippedaliophobia",
+    "description": "Just barely edging out Waxed Lightly Weathered Cut Copper Stairs!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scpcraftreinforced:foundation/thatsdeepbro",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scpcraftreinforced:cracked_polished_deep_granite_bricks_stairs"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

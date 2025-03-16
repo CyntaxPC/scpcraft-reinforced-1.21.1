@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "scpcraftreinforced:platinum_ingot"
+    },
+    "title": "Great for Jewelry!",
+    "description": "Mine platinum deep underground.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scpcraftreinforced:foundation/foundationroot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scpcraftreinforced:raw_platinum",
+              "scpcraftreinforced:deepslate_platinum_ore"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

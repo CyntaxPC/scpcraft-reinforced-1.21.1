@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "scpcraftreinforced:marble"
+    },
+    "title": "Michelangelo's Steve",
+    "description": "Mine marble from the deepest reaches.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "scpcraftreinforced:foundation/foundationroot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scpcraftreinforced:marble"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

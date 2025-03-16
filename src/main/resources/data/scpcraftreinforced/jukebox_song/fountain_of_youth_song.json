@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.fountain_of_youth_music_disc.desc"
+  },
+  "length_in_seconds": 178.0,
+  "sound_event": "scpcraftreinforced:fountain_of_youth_song"
+}

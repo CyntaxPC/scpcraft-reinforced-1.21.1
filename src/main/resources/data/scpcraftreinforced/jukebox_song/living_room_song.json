@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.living_room_music_disc.desc"
+  },
+  "length_in_seconds": 140.0,
+  "sound_event": "scpcraftreinforced:living_room_song"
+}
