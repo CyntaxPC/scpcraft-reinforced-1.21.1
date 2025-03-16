@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "scpcraftreinforced:cracked_polished_deep_granite_bricks"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "scpcraftreinforced:cracked_polished_deep_granite_bricks_slab"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "scpcraftreinforced:block/cracked_polished_deep_granite_bricks"
+  }
+}

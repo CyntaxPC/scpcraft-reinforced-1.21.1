@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "scpcraftreinforced:block/bladewood_log",
+    "side": "scpcraftreinforced:block/bladewood_log"
+  }
+}

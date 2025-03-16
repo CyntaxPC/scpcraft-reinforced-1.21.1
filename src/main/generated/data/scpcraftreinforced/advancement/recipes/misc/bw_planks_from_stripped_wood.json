@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stripped_bladewood_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "scpcraftreinforced:stripped_bladewood_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bw_planks_from_stripped_wood"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stripped_bladewood_wood"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bw_planks_from_stripped_wood"
+    ]
+  }
+}

@@ -5,6 +5,7 @@ import net.cyntax.scpcraftreinforced.entity.ModEntities;
 import net.cyntax.scpcraftreinforced.item.ModItemGroups;
 import net.cyntax.scpcraftreinforced.item.ModItems;
 import net.cyntax.scpcraftreinforced.sound.ModSounds;
+import net.cyntax.scpcraftreinforced.world.gen.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
@@ -25,6 +26,7 @@ public class SCPcraftReinforced implements ModInitializer {
 		ModSounds.registerSounds();
 		ModEntities.registerModEntities();
 		ModItemGroups.registerItemGroups();
+		ModOreGeneration.generateOres();
 
 		StrippableBlockRegistry.register(ModBlocks.BLADEWOOD_LOG, ModBlocks.STRIPPED_BLADEWOOD_LOG);
 		StrippableBlockRegistry.register(ModBlocks.BLADEWOOD_WOOD, ModBlocks.STRIPPED_BLADEWOOD_WOOD);

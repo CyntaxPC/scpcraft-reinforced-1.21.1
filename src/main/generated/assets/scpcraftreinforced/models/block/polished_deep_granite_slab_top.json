@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/polished_deep_granite",
+    "side": "scpcraftreinforced:block/polished_deep_granite",
+    "top": "scpcraftreinforced:block/polished_deep_granite"
+  }
+}

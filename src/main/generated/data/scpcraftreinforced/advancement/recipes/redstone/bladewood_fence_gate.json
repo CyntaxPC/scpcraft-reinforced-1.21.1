@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bladewood_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "scpcraftreinforced:bladewood_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "scpcraftreinforced:bladewood_fence_gate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bladewood_planks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "scpcraftreinforced:bladewood_fence_gate"
+    ]
+  }
+}

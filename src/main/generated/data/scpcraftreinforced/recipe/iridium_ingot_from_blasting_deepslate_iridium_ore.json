@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "group": "iridium_ingot",
+  "ingredient": {
+    "item": "scpcraftreinforced:deepslate_iridium_ore"
+  },
+  "result": {
+    "id": "scpcraftreinforced:iridium_ingot"
+  }
+}

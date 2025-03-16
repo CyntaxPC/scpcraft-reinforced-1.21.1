@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "scpcraftreinforced:marble"
+    }
+  },
+  "pattern": [
+    "XX ",
+    "XX ",
+    "   "
+  ],
+  "result": {
+    "count": 4,
+    "id": "scpcraftreinforced:polished_marble"
+  }
+}

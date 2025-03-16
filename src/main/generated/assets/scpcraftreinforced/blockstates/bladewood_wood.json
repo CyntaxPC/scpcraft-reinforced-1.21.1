@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "scpcraftreinforced:block/bladewood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "scpcraftreinforced:block/bladewood_wood"
+    },
+    "axis=z": {
+      "model": "scpcraftreinforced:block/bladewood_wood",
+      "x": 90
+    }
+  }
+}

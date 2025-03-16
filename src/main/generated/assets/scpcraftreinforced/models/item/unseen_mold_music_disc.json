@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/unseen_mold_music_disc"
+  }
+}

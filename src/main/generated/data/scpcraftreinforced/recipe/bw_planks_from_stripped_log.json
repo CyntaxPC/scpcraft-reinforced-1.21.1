@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "scpcraftreinforced:stripped_bladewood_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "scpcraftreinforced:bladewood_planks"
+  }
+}

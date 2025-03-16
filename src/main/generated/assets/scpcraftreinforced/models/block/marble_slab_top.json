@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/marble",
+    "side": "scpcraftreinforced:block/marble",
+    "top": "scpcraftreinforced:block/marble"
+  }
+}

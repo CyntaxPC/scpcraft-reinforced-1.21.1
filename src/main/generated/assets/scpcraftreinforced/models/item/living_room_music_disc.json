@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/living_room_music_disc"
+  }
+}

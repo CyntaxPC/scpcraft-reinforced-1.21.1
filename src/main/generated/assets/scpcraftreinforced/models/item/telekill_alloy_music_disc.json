@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/telekill_alloy_music_disc"
+  }
+}

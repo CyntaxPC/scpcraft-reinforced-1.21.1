@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "scpcraftreinforced:block/bladewood_slab"
+    },
+    "type=double": {
+      "model": "scpcraftreinforced:block/bladewood_planks"
+    },
+    "type=top": {
+      "model": "scpcraftreinforced:block/bladewood_slab_top"
+    }
+  }
+}

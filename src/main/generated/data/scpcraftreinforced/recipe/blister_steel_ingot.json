@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "scpcraftreinforced:blister_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "scpcraftreinforced:blister_steel_ingot"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "P": {
+      "item": "scpcraftreinforced:platinum_ingot"
+    }
+  },
+  "pattern": [
+    "PGP",
+    "GIG",
+    "PGP"
+  ],
+  "result": {
+    "count": 4,
+    "id": "scpcraftreinforced:reinforced_glass"
+  }
+}

@@ -74,7 +74,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_BLADEWOOD_LOG);
         addDrop(ModBlocks.STRIPPED_BLADEWOOD_LOG);
         addDrop(ModBlocks.BLADEWOOD_PLANKS);
-      //  addDrop(ModBlocks.BLADEWOOD_SAPLING);
+        addDrop(ModBlocks.BLADEWOOD_SAPLING);
         addDrop(ModBlocks.BLADEWOOD_SLAB, slabDrops(ModBlocks.BLADEWOOD_SLAB));
         addDrop(ModBlocks.BLADEWOOD_STAIRS);
         addDrop(ModBlocks.BLADEWOOD_BUTTON);
@@ -83,7 +83,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLADEWOOD_TRAPDOOR);
         addDrop(ModBlocks.BLADEWOOD_FENCE);
         addDrop(ModBlocks.BLADEWOOD_FENCE_GATE);
-     //   addDrop(ModBlocks.BLADEWOOD_LEAVES, leavesDrops(ModBlocks.BLADEWOOD_LEAVES, ModBlocks.BLADEWOOD_SAPLING, 0.0625f));
+        addDrop(ModBlocks.BLADEWOOD_LEAVES, leavesDrops(ModBlocks.BLADEWOOD_LEAVES, ModBlocks.BLADEWOOD_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.OAK_CHAIR);
         addDrop(ModBlocks.BIRCH_CHAIR);

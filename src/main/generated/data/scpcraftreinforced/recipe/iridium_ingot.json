@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "scpcraftreinforced:iridium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "scpcraftreinforced:iridium_ingot"
+  }
+}

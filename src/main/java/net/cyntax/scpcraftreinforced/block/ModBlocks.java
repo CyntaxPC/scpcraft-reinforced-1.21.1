@@ -4,7 +4,7 @@ import net.cyntax.scpcraftreinforced.SCPcraftReinforced;
 import net.cyntax.scpcraftreinforced.block.custom.ChairBlock;
 import net.cyntax.scpcraftreinforced.block.custom.GlassTableBlock;
 import net.cyntax.scpcraftreinforced.block.custom.TableBlock;
-//import net.cyntax.scpcraftreinforced.world.tree.ModSaplingGenerators;
+import net.cyntax.scpcraftreinforced.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -305,8 +305,8 @@ public class ModBlocks {
     public static final Block BLADEWOOD_LEAVES = registerBlock("bladewood_leaves",
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)));
 
-   // public static final Block BLADEWOOD_SAPLING = registerBlock("bladewood_sapling",
-          //  new SaplingBlock(ModSaplingGenerators.BLADEWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block BLADEWOOD_SAPLING = registerBlock("bladewood_sapling",
+            new SaplingBlock(ModSaplingGenerators.BLADEWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
     public static final Block BLADEWOOD_STAIRS = registerBlock("bladewood_stairs",
             new StairsBlock(ModBlocks.BLADEWOOD_PLANKS.getDefaultState(), AbstractBlock.Settings.create()

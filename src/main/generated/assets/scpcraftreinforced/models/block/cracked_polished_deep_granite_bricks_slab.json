@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/cracked_polished_deep_granite_bricks",
+    "side": "scpcraftreinforced:block/cracked_polished_deep_granite_bricks",
+    "top": "scpcraftreinforced:block/cracked_polished_deep_granite_bricks"
+  }
+}

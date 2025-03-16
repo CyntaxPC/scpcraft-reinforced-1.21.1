@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/polished_marble",
+    "side": "scpcraftreinforced:block/polished_marble",
+    "top": "scpcraftreinforced:block/polished_marble"
+  }
+}

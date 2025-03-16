@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "scpcraftreinforced:block/bladewood_planks"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/fountain_of_youth_music_disc"
+  }
+}

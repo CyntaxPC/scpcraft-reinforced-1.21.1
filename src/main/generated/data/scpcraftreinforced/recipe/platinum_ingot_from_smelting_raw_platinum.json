@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "group": "platinum_ingot",
+  "ingredient": {
+    "item": "scpcraftreinforced:raw_platinum"
+  },
+  "result": {
+    "id": "scpcraftreinforced:platinum_ingot"
+  }
+}

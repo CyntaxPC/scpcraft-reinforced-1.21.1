@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bladewood_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "scpcraftreinforced:bladewood_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bw_planks_from_log"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bladewood_log"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bw_planks_from_log"
+    ]
+  }
+}

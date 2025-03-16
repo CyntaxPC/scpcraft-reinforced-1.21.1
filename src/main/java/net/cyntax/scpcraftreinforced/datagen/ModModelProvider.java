@@ -84,7 +84,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_BLADEWOOD_LOG).log(ModBlocks.STRIPPED_BLADEWOOD_LOG).wood(ModBlocks.STRIPPED_BLADEWOOD_WOOD);
         BlockStateModelGenerator.BlockTexturePool bladewoodPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLADEWOOD_PLANKS);
         blockStateModelGenerator.registerSingleton(ModBlocks.BLADEWOOD_LEAVES, TexturedModel.LEAVES);
-//        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BLADEWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.BLADEWOOD_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
         bladewoodPool.stairs(ModBlocks.BLADEWOOD_STAIRS);
         bladewoodPool.slab(ModBlocks.BLADEWOOD_SLAB);
         bladewoodPool.fence(ModBlocks.BLADEWOOD_FENCE);
@@ -146,7 +146,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EYE_SPIDERS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.LIVING_ROOM_MUSIC_DISC, Models.GENERATED);
 
-//        itemModelGenerator.register(ModBlocks.BLADEWOOD_SAPLING.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.BLADEWOOD_SAPLING.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.OAK_CHAIR.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.BIRCH_CHAIR.asItem(), Models.GENERATED);

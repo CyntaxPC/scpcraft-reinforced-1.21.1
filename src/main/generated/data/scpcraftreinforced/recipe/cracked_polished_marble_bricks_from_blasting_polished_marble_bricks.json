@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.15,
+  "group": "cracked_polished_marble_bricks",
+  "ingredient": {
+    "item": "scpcraftreinforced:polished_marble_bricks"
+  },
+  "result": {
+    "id": "scpcraftreinforced:cracked_polished_marble_bricks"
+  }
+}

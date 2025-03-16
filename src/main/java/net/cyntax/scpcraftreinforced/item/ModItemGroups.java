@@ -78,7 +78,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STRIPPED_BLADEWOOD_LOG);
                         entries.add(ModBlocks.STRIPPED_BLADEWOOD_WOOD);
                         entries.add(ModBlocks.BLADEWOOD_LEAVES);
-              //          entries.add(ModBlocks.BLADEWOOD_SAPLING);
+                        entries.add(ModBlocks.BLADEWOOD_SAPLING);
                         entries.add(ModBlocks.BLADEWOOD_PLANKS);
                         entries.add(ModBlocks.BLADEWOOD_STAIRS);
                         entries.add(ModBlocks.BLADEWOOD_SLAB);

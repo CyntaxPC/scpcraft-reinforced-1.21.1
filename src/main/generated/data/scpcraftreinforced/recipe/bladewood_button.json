@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "scpcraftreinforced:bladewood_planks"
+    }
+  },
+  "pattern": [
+    "X  ",
+    "   ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "scpcraftreinforced:bladewood_button"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.15,
+  "group": "cracked_polished_deep_granite_bricks",
+  "ingredient": {
+    "item": "scpcraftreinforced:polished_deep_granite_bricks"
+  },
+  "result": {
+    "id": "scpcraftreinforced:cracked_polished_deep_granite_bricks"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "scpcraftreinforced:block/oak_chair",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "scpcraftreinforced:block/oak_chair"
+    },
+    "facing=south": {
+      "model": "scpcraftreinforced:block/oak_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "scpcraftreinforced:block/oak_chair",
+      "y": 270
+    }
+  }
+}

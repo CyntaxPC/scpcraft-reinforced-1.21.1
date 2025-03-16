@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/bladewood_shovel"
+  }
+}

@@ -1,9 +1,12 @@
 package net.cyntax.scpcraftreinforced;
 
+import net.cyntax.scpcraftreinforced.world.ModConfiguredFeatures;
+import net.cyntax.scpcraftreinforced.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.cyntax.scpcraftreinforced.datagen.*;
 import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 
 public class SCPcraftReinforcedDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,10 +19,13 @@ public class SCPcraftReinforcedDataGenerator implements DataGeneratorEntrypoint 
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModRegistryDataGenerator::new);
+		pack.addProvider(ModWorldGenerator::new);
 	}
 
 	@Override
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

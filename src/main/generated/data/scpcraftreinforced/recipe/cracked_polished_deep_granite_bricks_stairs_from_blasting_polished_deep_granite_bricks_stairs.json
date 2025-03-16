@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.3,
+  "group": "cracked_polished_deep_granite_bricks_stairs",
+  "ingredient": {
+    "item": "scpcraftreinforced:polished_deep_granite_bricks_stairs"
+  },
+  "result": {
+    "id": "scpcraftreinforced:cracked_polished_deep_granite_bricks_stairs"
+  }
+}

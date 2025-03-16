@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "scpcraftreinforced:bladewood_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " II",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "scpcraftreinforced:bladewood_hoe"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "scpcraftreinforced:block/bladewood_leaves"
+  }
+}

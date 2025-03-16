@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/polished_marble_bricks",
+    "side": "scpcraftreinforced:block/polished_marble_bricks",
+    "top": "scpcraftreinforced:block/polished_marble_bricks"
+  }
+}

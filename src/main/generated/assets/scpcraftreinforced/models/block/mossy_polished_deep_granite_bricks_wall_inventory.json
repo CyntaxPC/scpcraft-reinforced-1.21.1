@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "scpcraftreinforced:block/mossy_polished_deep_granite_bricks"
+  }
+}

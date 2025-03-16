@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "scpcraftreinforced:mossy_polished_deep_granite_bricks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "scpcraftreinforced:mossy_polished_deep_granite_bricks_wall"
+  }
+}
