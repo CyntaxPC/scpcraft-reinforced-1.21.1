@@ -3,6 +3,7 @@ package net.cyntax.scpcraftreinforced.block;
 import net.cyntax.scpcraftreinforced.SCPcraftReinforced;
 import net.cyntax.scpcraftreinforced.block.custom.ChairBlock;
 import net.cyntax.scpcraftreinforced.block.custom.GlassTableBlock;
+import net.cyntax.scpcraftreinforced.block.custom.ShelfBlock;
 import net.cyntax.scpcraftreinforced.block.custom.TableBlock;
 import net.cyntax.scpcraftreinforced.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
@@ -428,6 +429,41 @@ public class ModBlocks {
     public static final Block REINFORCED_GLASS_PANE = registerBlock("reinforced_glass_pane",
             new PaneBlock(AbstractBlock.Settings.create()
                     .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.GLASS).nonOpaque()));
+
+
+    public static final Block OAK_SHELF = registerBlock("oak_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block BIRCH_SHELF = registerBlock("birch_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block SPRUCE_SHELF = registerBlock("spruce_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block JUNGLE_SHELF = registerBlock("jungle_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block ACACIA_SHELF = registerBlock("acacia_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block DARK_OAK_SHELF = registerBlock("dark_oak_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block MANGROVE_SHELF = registerBlock("mangrove_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block CHERRY_SHELF = registerBlock("cherry_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block WARPED_SHELF = registerBlock("warped_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block CRIMSON_SHELF = registerBlock("crimson_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block BLADEWOOD_SHELF = registerBlock("bladewood_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
 
 
 

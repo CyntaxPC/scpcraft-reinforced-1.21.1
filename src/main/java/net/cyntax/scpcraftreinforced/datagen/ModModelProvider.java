@@ -173,6 +173,18 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModBlocks.CRIMSON_TABLE.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.GLASS_TABLE.asItem(), Models.GENERATED);
 
+        itemModelGenerator.register(ModBlocks.OAK_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.BIRCH_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.SPRUCE_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.JUNGLE_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.DARK_OAK_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.ACACIA_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.MANGROVE_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.CHERRY_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.BLADEWOOD_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.WARPED_SHELF.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.CRIMSON_SHELF.asItem(), Models.GENERATED);
+
         itemModelGenerator.register(ModItems.PLATINUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PLATINUM_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PLATINUM_SHOVEL, Models.HANDHELD);

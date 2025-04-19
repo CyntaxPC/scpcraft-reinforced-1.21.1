@@ -114,6 +114,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLADEWOOD_TABLE);
                         entries.add(ModBlocks.GLASS_TABLE);
 
+                        entries.add(ModBlocks.OAK_SHELF);
+                        entries.add(ModBlocks.BIRCH_SHELF);
+                        entries.add(ModBlocks.SPRUCE_SHELF);
+                        entries.add(ModBlocks.JUNGLE_SHELF);
+                        entries.add(ModBlocks.ACACIA_SHELF);
+                        entries.add(ModBlocks.DARK_OAK_SHELF);
+                        entries.add(ModBlocks.CHERRY_SHELF);
+                        entries.add(ModBlocks.MANGROVE_SHELF);
+                        entries.add(ModBlocks.CRIMSON_SHELF);
+                        entries.add(ModBlocks.WARPED_SHELF);
+                        entries.add(ModBlocks.BLADEWOOD_SHELF);
+
                     }).build());
 
     public static final ItemGroup SCPCRAFT_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,

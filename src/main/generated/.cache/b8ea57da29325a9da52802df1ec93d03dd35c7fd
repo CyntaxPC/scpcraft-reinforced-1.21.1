@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-16T19:12:06.9626852	SCPcraft: Reinforced/Block Loot Tables
+// 1.21.1	2025-04-19T18:10:27.5852482	SCPcraft: Reinforced/Block Loot Tables
 779184a2d326a70c5d97c664359f7aa181a1a356 data\scpcraftreinforced\loot_table\blocks\bladewood_table.json
 828c28261476285ade8c9c4ca039ae837f124f67 data\scpcraftreinforced\loot_table\blocks\chiseled_polished_marble_bricks.json
 16dc1bb43b3f7eed14e5c5ac44a3924c0ab63384 data\scpcraftreinforced\loot_table\blocks\polished_deep_granite_bricks_stairs.json
@@ -25,6 +25,7 @@ d9df8af0e7eceeca3f02c991ac7e5ed754cddb03 data\scpcraftreinforced\loot_table\bloc
 4127716a8b0983c5f8bda694b6166a95fb41876e data\scpcraftreinforced\loot_table\blocks\spruce_chair.json
 b66e9721135fdd82be7cc159cac1a4252348e5e2 data\scpcraftreinforced\loot_table\blocks\bladewood_log.json
 0ff6081bdf67ec0049cc6246f491c30abc159b09 data\scpcraftreinforced\loot_table\blocks\cracked_polished_marble_bricks_wall.json
+2ac4ed211a62bb73316834169999bc67651ac7ab data\scpcraftreinforced\loot_table\blocks\oak_shelf.json
 e895690d008037d2d9e55e4bd799778502e6ba36 data\scpcraftreinforced\loot_table\blocks\cracked_polished_marble_bricks.json
 9f89676d280b10d154fca4eb4a109392dbc4718b data\scpcraftreinforced\loot_table\blocks\marble_stairs.json
 c0df1428c2671b21d8d2d30f62c80c11d0962401 data\scpcraftreinforced\loot_table\blocks\bladewood_door.json

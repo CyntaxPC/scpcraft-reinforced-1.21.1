@@ -1,7 +1,7 @@
-// 1.21.1	2025-03-16T19:12:06.9546157	SCPcraft: Reinforced/Tags for minecraft:block
+// 1.21.1	2025-04-19T18:10:27.5782451	SCPcraft: Reinforced/Tags for minecraft:block
 922e76a5801712bc462393864e6e1fd3606d893d data\minecraft\tags\block\needs_iron_tool.json
-9decf94502d60f1586e39e5470b381ea2ebbc856 data\minecraft\tags\block\wooden_fences.json
 e369989975a1a84d9e555af1f47875109460b07f data\minecraft\tags\block\needs_diamond_tool.json
+9decf94502d60f1586e39e5470b381ea2ebbc856 data\minecraft\tags\block\wooden_fences.json
 c600d6536004089a88eb3a7f9c7ee29bd560785c data\minecraft\tags\block\walls.json
 b2c70325af222f67f6a74083ec226a09e8ac63c9 data\minecraft\tags\block\mineable\axe.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\scpcraftreinforced\tags\block\needs_iridium_tool.json

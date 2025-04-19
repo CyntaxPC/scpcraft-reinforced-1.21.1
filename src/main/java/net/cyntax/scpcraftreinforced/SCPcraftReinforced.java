@@ -1,6 +1,7 @@
 package net.cyntax.scpcraftreinforced;
 
 import net.cyntax.scpcraftreinforced.block.ModBlocks;
+import net.cyntax.scpcraftreinforced.block.entity.ModBlockEntities;
 import net.cyntax.scpcraftreinforced.entity.ModEntities;
 import net.cyntax.scpcraftreinforced.item.ModItemGroups;
 import net.cyntax.scpcraftreinforced.item.ModItems;
@@ -27,6 +28,7 @@ public class SCPcraftReinforced implements ModInitializer {
 		ModEntities.registerModEntities();
 		ModItemGroups.registerItemGroups();
 		ModOreGeneration.generateOres();
+		ModBlockEntities.registerBlockEntities();
 
 		StrippableBlockRegistry.register(ModBlocks.BLADEWOOD_LOG, ModBlocks.STRIPPED_BLADEWOOD_LOG);
 		StrippableBlockRegistry.register(ModBlocks.BLADEWOOD_WOOD, ModBlocks.STRIPPED_BLADEWOOD_WOOD);

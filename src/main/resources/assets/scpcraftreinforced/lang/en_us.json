@@ -105,6 +105,18 @@
   "block.scpcraftreinforced.reinforced_glass": "Reinforced Glass",
   "block.scpcraftreinforced.reinforced_glass_pane": "Reinforced Glass Pane",
 
+  "block.scpcraftreinforced.oak_shelf": "Oak Shelf",
+  "block.scpcraftreinforced.birch_shelf": "Birch Shelf",
+  "block.scpcraftreinforced.spruce_shelf": "Spruce Shelf",
+  "block.scpcraftreinforced.jungle_shelf": "Jungle Shelf",
+  "block.scpcraftreinforced.acacia_shelf": "Acacia Shelf",
+  "block.scpcraftreinforced.dark_oak_shelf": "Dark Oak Shelf",
+  "block.scpcraftreinforced.cherry_shelf": "Cherry Shelf",
+  "block.scpcraftreinforced.mangrove_shelf": "Mangrove Shelf",
+  "block.scpcraftreinforced.warped_shelf": "Warped Shelf",
+  "block.scpcraftreinforced.crimson_shelf": "Crimson Shelf",
+  "block.scpcraftreinforced.bladewood_shelf": "Bladewood Shelf",
+
   "item.scpcraftreinforced.gender_switcher_music_disc": "Music Disc",
   "item.scpcraftreinforced.gender_switcher_music_disc.desc": "Glenn Leroi - SCP 113 Song",
   "item.scpcraftreinforced.burning_man_music_disc": "Music Disc",

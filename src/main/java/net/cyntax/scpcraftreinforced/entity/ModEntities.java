@@ -13,7 +13,7 @@ public class ModEntities {
     public static final EntityType<ChairEntity> CHAIR = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(SCPcraftReinforced.MOD_ID, "chair_entity"),
             EntityType.Builder.create(ChairEntity::new, SpawnGroup.MISC)
-                    .dimensions(0.5f, 0.5f).build());
+                    .dimensions(0.5f, 0.6f).build());
 
 
     public static void registerModEntities() {

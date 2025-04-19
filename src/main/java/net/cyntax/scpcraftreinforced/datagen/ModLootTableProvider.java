@@ -110,6 +110,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRIMSON_TABLE);
         addDrop(ModBlocks.GLASS_TABLE);
 
+        addDrop(ModBlocks.OAK_SHELF);
+        addDrop(ModBlocks.BIRCH_SHELF);
+        addDrop(ModBlocks.SPRUCE_SHELF);
+        addDrop(ModBlocks.JUNGLE_SHELF);
+        addDrop(ModBlocks.ACACIA_SHELF);
+        addDrop(ModBlocks.DARK_OAK_SHELF);
+        addDrop(ModBlocks.CHERRY_SHELF);
+        addDrop(ModBlocks.MANGROVE_SHELF);
+        addDrop(ModBlocks.CRIMSON_SHELF);
+        addDrop(ModBlocks.WARPED_SHELF);
+        addDrop(ModBlocks.BLADEWOOD_SHELF);
+
         addDrop(ModBlocks.REINFORCED_GLASS);
         addDrop(ModBlocks.REINFORCED_GLASS_PANE);
 
