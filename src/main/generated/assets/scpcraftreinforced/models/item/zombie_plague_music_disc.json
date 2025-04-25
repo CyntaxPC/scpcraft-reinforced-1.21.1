@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/zombie_plague_music_disc"
+  }
+}
