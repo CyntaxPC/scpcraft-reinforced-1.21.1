@@ -125,6 +125,267 @@
     ]
   },
 
+  "zombie_plague_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:zombie_plague_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "bad_composition_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:bad_composition_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "possessive_mask_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:possessive_mask_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "plague_doctor_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:plague_doctor_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "erics_toy_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:erics_toy_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "old_ai_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:old_ai_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "endless_staircase_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:endless_staircase_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "shy_guy_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:shy_guy_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "old_man_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:old_man_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "sculpture_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:sculpture_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "specs_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:specs_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "shadow_lamps_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:shadow_lamps_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "cola_bottle_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:cola_bottle_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "coffee_machine_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:coffee_machine_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "take_only_two_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:take_only_two_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "peripheral_jumper_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:peripheral_jumper_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "contagious_crystal_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:contagious_crystal_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "cowbell_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:cowbell_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "living_room_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:living_room_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "crystalline_butterflies_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:crystalline_butterflies_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "black_statue_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:black_statue_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "jaded_ring_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:jaded_ring_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "blue_key_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:blue_key_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "camera_disruption_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:camera_disruption_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "clockworks_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:clockworks_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "with_many_voices_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:with_many_voices_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "sleep_killer_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:sleep_killer_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "recursive_room_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:recursive_room_song",
+        "stream": true
+      }
+    ]
+  },
+
+  "birthday_monkey_song":{
+    "sounds": [
+      {
+        "name": "scpcraftreinforced:birthday_monkey_song",
+        "stream": true
+      }
+    ]
+  },
+
   "eye_spiders_song":{
     "sounds": [
       {

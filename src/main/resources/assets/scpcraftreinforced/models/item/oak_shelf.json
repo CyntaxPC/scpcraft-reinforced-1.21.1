@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/oak_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/oak_shelf"
+  }
 }

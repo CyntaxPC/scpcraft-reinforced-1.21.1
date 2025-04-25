@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/jungle_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/jungle_shelf"
+  }
 }

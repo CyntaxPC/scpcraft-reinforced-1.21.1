@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/acacia_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/acacia_shelf"
+  }
 }

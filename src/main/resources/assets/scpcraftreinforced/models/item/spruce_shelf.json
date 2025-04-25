@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/spruce_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/spruce_shelf"
+  }
 }

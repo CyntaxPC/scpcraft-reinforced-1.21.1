@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.contagious_crystal_music_disc.desc"
+  },
+  "length_in_seconds": 206.0,
+  "sound_event": "scpcraftreinforced:contagious_crystal_song"
+}

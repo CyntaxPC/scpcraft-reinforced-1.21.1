@@ -145,6 +145,34 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SONG_OF_GENESIS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.EYE_SPIDERS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.LIVING_ROOM_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ZOMBIE_PLAGUE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BAD_COMPOSITION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.POSSESSIVE_MASK_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLAGUE_DOCTOR_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ERICS_TOY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OLD_AI_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDLESS_STAIRCASE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHY_GUY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OLD_MAN_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SCULPTURE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPECS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SHADOW_LAMPS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COLA_BOTTLE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COFFEE_MACHINE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TAKE_ONLY_TWO_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PERIPHERAL_JUMPER_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CONTAGIOUS_CRYSTAL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COWBELL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CRYSTALLINE_BUTTERFLIES_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLACK_STATUE_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.JADED_RING_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_KEY_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAMERA_DISRUPTION_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CLOCKWORKS_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WITH_MANY_VOICES_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SLEEP_KILLER_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RECURSIVE_ROOM_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BIRTHDAY_MONKEY_MUSIC_DISC, Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.BLADEWOOD_SAPLING.asItem(), Models.GENERATED);
 
@@ -173,17 +201,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModBlocks.CRIMSON_TABLE.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.GLASS_TABLE.asItem(), Models.GENERATED);
 
-        itemModelGenerator.register(ModBlocks.OAK_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.BIRCH_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.SPRUCE_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.JUNGLE_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.DARK_OAK_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.ACACIA_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.MANGROVE_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.CHERRY_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.BLADEWOOD_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.WARPED_SHELF.asItem(), Models.GENERATED);
-        itemModelGenerator.register(ModBlocks.CRIMSON_SHELF.asItem(), Models.GENERATED);
+
 
         itemModelGenerator.register(ModItems.PLATINUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PLATINUM_PICKAXE, Models.HANDHELD);

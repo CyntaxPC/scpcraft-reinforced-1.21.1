@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.old_man_music_disc.desc"
+  },
+  "length_in_seconds": 128.0,
+  "sound_event": "scpcraftreinforced:old_man_song"
+}

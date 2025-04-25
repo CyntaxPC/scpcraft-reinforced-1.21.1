@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.jaded_ring_music_disc.desc"
+  },
+  "length_in_seconds": 135.0,
+  "sound_event": "scpcraftreinforced:jaded_ring_song"
+}

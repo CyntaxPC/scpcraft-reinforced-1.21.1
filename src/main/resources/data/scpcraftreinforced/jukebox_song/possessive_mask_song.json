@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.possessive_mask_music_disc.desc"
+  },
+  "length_in_seconds": 129.0,
+  "sound_event": "scpcraftreinforced:possessive_mask_song"
+}

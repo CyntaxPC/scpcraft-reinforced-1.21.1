@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.birthday_monkey_music_disc.desc"
+  },
+  "length_in_seconds": 154.0,
+  "sound_event": "scpcraftreinforced:birthday_monkey_song"
+}

@@ -163,24 +163,57 @@ public class ModItemGroups {
                         entries.add(ModItems.BLADEWOOD_AXE);
                         entries.add(ModItems.BLADEWOOD_HOE);
 
+                    }).build());
 
-
-                        entries.add(ModItems.GENDER_SWITCHER_MUSIC_DISC);
-                        entries.add(ModItems.BURNING_MAN_MUSIC_DISC);
-                        entries.add(ModItems.EYEPODS_MUSIC_DISC);
-                        entries.add(ModItems.RED_ICE_MUSIC_DISC);
-                        entries.add(ModItems.SWAMP_WOMAN_MUSIC_DISC);
-                        entries.add(ModItems.UNSEEN_MOLD_MUSIC_DISC);
-                        entries.add(ModItems.DARK_FORM_MUSIC_DISC);
-                        entries.add(ModItems.TELEKILL_ALLOY_MUSIC_DISC);
-                        entries.add(ModItems.SKELETON_KEY_MUSIC_DISC);
-                        entries.add(ModItems.SUPER_BALL_MUSIC_DISC);
-                        entries.add(ModItems.FOUNTAIN_OF_YOUTH_MUSIC_DISC);
-                        entries.add(ModItems.EVERYTHING_TREE_MUSIC_DISC);
-                        entries.add(ModItems.REWIND_MAN_MUSIC_DISC);
-                        entries.add(ModItems.SONG_OF_GENESIS_MUSIC_DISC);
-                        entries.add(ModItems.EYE_SPIDERS_MUSIC_DISC);
+    public static final ItemGroup SCPCRAFT_MUSIC_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(SCPcraftReinforced.MOD_ID, "scpcraft_music_discs_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.GENDER_SWITCHER_MUSIC_DISC))
+                    .displayName(Text.translatable("itemgroup.scpcraftreinforced.scpcraftreinforced_music_discs"))
+                    .entries((displayContext, entries) -> {
                         entries.add(ModItems.LIVING_ROOM_MUSIC_DISC);
+                        entries.add(ModItems.SKELETON_KEY_MUSIC_DISC);
+                        entries.add(ModItems.FOUNTAIN_OF_YOUTH_MUSIC_DISC);
+                        entries.add(ModItems.ZOMBIE_PLAGUE_MUSIC_DISC);
+                        entries.add(ModItems.RED_ICE_MUSIC_DISC);
+                        entries.add(ModItems.BAD_COMPOSITION_MUSIC_DISC);
+                        entries.add(ModItems.SUPER_BALL_MUSIC_DISC);
+                        entries.add(ModItems.UNSEEN_MOLD_MUSIC_DISC);
+                        entries.add(ModItems.POSSESSIVE_MASK_MUSIC_DISC);
+                        entries.add(ModItems.EVERYTHING_TREE_MUSIC_DISC);
+                        entries.add(ModItems.PLAGUE_DOCTOR_MUSIC_DISC);
+                        entries.add(ModItems.ERICS_TOY_MUSIC_DISC);
+                        entries.add(ModItems.OLD_AI_MUSIC_DISC);
+                        entries.add(ModItems.DARK_FORM_MUSIC_DISC);
+                        entries.add(ModItems.ENDLESS_STAIRCASE_MUSIC_DISC);
+                        entries.add(ModItems.SHY_GUY_MUSIC_DISC);
+                        entries.add(ModItems.OLD_MAN_MUSIC_DISC);
+                        entries.add(ModItems.GENDER_SWITCHER_MUSIC_DISC);
+                        entries.add(ModItems.EYEPODS_MUSIC_DISC);
+                        entries.add(ModItems.TELEKILL_ALLOY_MUSIC_DISC);
+                        entries.add(ModItems.SCULPTURE_MUSIC_DISC);
+                        entries.add(ModItems.SPECS_MUSIC_DISC);
+                        entries.add(ModItems.REWIND_MAN_MUSIC_DISC);
+                        entries.add(ModItems.SHADOW_LAMPS_MUSIC_DISC);
+                        entries.add(ModItems.COLA_BOTTLE_MUSIC_DISC);
+                        entries.add(ModItems.COFFEE_MACHINE_MUSIC_DISC);
+                        entries.add(ModItems.TAKE_ONLY_TWO_MUSIC_DISC);
+                        entries.add(ModItems.PERIPHERAL_JUMPER_MUSIC_DISC);
+                        entries.add(ModItems.SONG_OF_GENESIS_MUSIC_DISC);
+                        entries.add(ModItems.CONTAGIOUS_CRYSTAL_MUSIC_DISC);
+                        entries.add(ModItems.BURNING_MAN_MUSIC_DISC);
+                        entries.add(ModItems.COWBELL_MUSIC_DISC);
+                        entries.add(ModItems.EYE_SPIDERS_MUSIC_DISC);
+                        entries.add(ModItems.CRYSTALLINE_BUTTERFLIES_MUSIC_DISC);
+                        entries.add(ModItems.BLACK_STATUE_MUSIC_DISC);
+                        entries.add(ModItems.JADED_RING_MUSIC_DISC);
+                        entries.add(ModItems.SWAMP_WOMAN_MUSIC_DISC);
+                        entries.add(ModItems.BLUE_KEY_MUSIC_DISC);
+                        entries.add(ModItems.CAMERA_DISRUPTION_MUSIC_DISC);
+                        entries.add(ModItems.CLOCKWORKS_MUSIC_DISC);
+                        entries.add(ModItems.WITH_MANY_VOICES_MUSIC_DISC);
+                        entries.add(ModItems.SLEEP_KILLER_MUSIC_DISC);
+                        entries.add(ModItems.RECURSIVE_ROOM_MUSIC_DISC);
+                        entries.add(ModItems.BIRTHDAY_MONKEY_MUSIC_DISC);
 
 
                     }).build());

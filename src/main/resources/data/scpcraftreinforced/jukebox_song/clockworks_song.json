@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.clockworks_music_disc.desc"
+  },
+  "length_in_seconds": 157.0,
+  "sound_event": "scpcraftreinforced:clockworks_song"
+}

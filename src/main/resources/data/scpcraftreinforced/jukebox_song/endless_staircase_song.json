@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.endless_staircase_music_disc.desc"
+  },
+  "length_in_seconds": 132.0,
+  "sound_event": "scpcraftreinforced:endless_staircase_song"
+}

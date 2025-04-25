@@ -49,6 +49,62 @@ public class ModItems {
             .jukeboxPlayable(ModSounds.EYE_SPIDERS_SONG_KEY).maxCount(1)));
     public static final Item LIVING_ROOM_MUSIC_DISC=registerItem("living_room_music_disc", new Item(new Item.Settings()
             .jukeboxPlayable(ModSounds.LIVING_ROOM_SONG_KEY).maxCount(1)));
+    public static final Item ZOMBIE_PLAGUE_MUSIC_DISC=registerItem("zombie_plague_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.ZOMBIE_PLAGUE_SONG_KEY).maxCount(1)));
+    public static final Item BAD_COMPOSITION_MUSIC_DISC=registerItem("bad_composition_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.BAD_COMPOSITION_SONG_KEY).maxCount(1)));
+    public static final Item POSSESSIVE_MASK_MUSIC_DISC=registerItem("possessive_mask_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.POSSESSIVE_MASK_SONG_KEY).maxCount(1)));
+    public static final Item PLAGUE_DOCTOR_MUSIC_DISC=registerItem("plague_doctor_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.PLAGUE_DOCTOR_SONG_KEY).maxCount(1)));
+    public static final Item ERICS_TOY_MUSIC_DISC=registerItem("erics_toy_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.ERICS_TOY_SONG_KEY).maxCount(1)));
+    public static final Item OLD_AI_MUSIC_DISC=registerItem("old_ai_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.OLD_AI_SONG_KEY).maxCount(1)));
+    public static final Item ENDLESS_STAIRCASE_MUSIC_DISC=registerItem("endless_staircase_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.ENDLESS_STAIRCASE_SONG_KEY).maxCount(1)));
+    public static final Item SHY_GUY_MUSIC_DISC=registerItem("shy_guy_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.SHY_GUY_SONG_KEY).maxCount(1)));
+    public static final Item OLD_MAN_MUSIC_DISC=registerItem("old_man_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.OLD_MAN_SONG_KEY).maxCount(1)));
+    public static final Item SCULPTURE_MUSIC_DISC=registerItem("sculpture_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.SCULPTURE_SONG_KEY).maxCount(1)));
+    public static final Item SPECS_MUSIC_DISC=registerItem("specs_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.SPECS_SONG_KEY).maxCount(1)));
+    public static final Item SHADOW_LAMPS_MUSIC_DISC=registerItem("shadow_lamps_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.SHADOW_LAMPS_SONG_KEY).maxCount(1)));
+    public static final Item COLA_BOTTLE_MUSIC_DISC=registerItem("cola_bottle_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.COLA_BOTTLE_SONG_KEY).maxCount(1)));
+    public static final Item COFFEE_MACHINE_MUSIC_DISC=registerItem("coffee_machine_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.COFFEE_MACHINE_SONG_KEY).maxCount(1)));
+    public static final Item TAKE_ONLY_TWO_MUSIC_DISC=registerItem("take_only_two_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.TAKE_ONLY_TWO_SONG_KEY).maxCount(1)));
+    public static final Item PERIPHERAL_JUMPER_MUSIC_DISC=registerItem("peripheral_jumper_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.PERIPHERAL_JUMPER_SONG_KEY).maxCount(1)));
+    public static final Item CONTAGIOUS_CRYSTAL_MUSIC_DISC=registerItem("contagious_crystal_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.CONTAGIOUS_CRYSTAL_SONG_KEY).maxCount(1)));
+    public static final Item COWBELL_MUSIC_DISC=registerItem("cowbell_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.COWBELL_SONG_KEY).maxCount(1)));
+    public static final Item CRYSTALLINE_BUTTERFLIES_MUSIC_DISC=registerItem("crystalline_butterflies_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.CRYSTALLINE_BUTTERFLIES_SONG_KEY).maxCount(1)));
+    public static final Item BLACK_STATUE_MUSIC_DISC=registerItem("black_statue_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.BLACK_STATUE_SONG_KEY).maxCount(1)));
+    public static final Item JADED_RING_MUSIC_DISC=registerItem("jaded_ring_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.JADED_RING_SONG_KEY).maxCount(1)));
+    public static final Item BLUE_KEY_MUSIC_DISC=registerItem("blue_key_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.BLUE_KEY_SONG_KEY).maxCount(1)));
+    public static final Item CAMERA_DISRUPTION_MUSIC_DISC=registerItem("camera_disruption_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.CAMERA_DISRUPTION_SONG_KEY).maxCount(1)));
+    public static final Item CLOCKWORKS_MUSIC_DISC=registerItem("clockworks_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.CLOCKWORKS_SONG_KEY).maxCount(1)));
+    public static final Item WITH_MANY_VOICES_MUSIC_DISC=registerItem("with_many_voices_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.WITH_MANY_VOICES_SONG_KEY).maxCount(1)));
+    public static final Item SLEEP_KILLER_MUSIC_DISC=registerItem("sleep_killer_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.SLEEP_KILLER_SONG_KEY).maxCount(1)));
+    public static final Item RECURSIVE_ROOM_MUSIC_DISC=registerItem("recursive_room_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.RECURSIVE_ROOM_SONG_KEY).maxCount(1)));
+    public static final Item BIRTHDAY_MONKEY_MUSIC_DISC=registerItem("birthday_monkey_music_disc", new Item(new Item.Settings()
+            .jukeboxPlayable(ModSounds.BIRTHDAY_MONKEY_SONG_KEY).maxCount(1)));
 
 
 

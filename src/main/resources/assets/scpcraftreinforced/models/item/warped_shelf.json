@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/warped_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/warped_shelf"
+  }
 }

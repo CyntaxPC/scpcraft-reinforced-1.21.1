@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.coffee_machine_music_disc.desc"
+  },
+  "length_in_seconds": 103.0,
+  "sound_event": "scpcraftreinforced:coffee_machine_song"
+}

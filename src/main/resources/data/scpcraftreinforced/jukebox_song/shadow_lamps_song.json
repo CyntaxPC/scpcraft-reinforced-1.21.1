@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.shadow_lamps_music_disc.desc"
+  },
+  "length_in_seconds": 125.0,
+  "sound_event": "scpcraftreinforced:shadow_lamps_song"
+}

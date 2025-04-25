@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/bladewood_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/bladewood_shelf"
+  }
 }

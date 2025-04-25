@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.scpcraftreinforced.zombie_plague_music_disc.desc"
+  },
+  "length_in_seconds": 153.0,
+  "sound_event": "scpcraftreinforced:zombie_plague_song"
+}

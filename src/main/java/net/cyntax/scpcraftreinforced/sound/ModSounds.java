@@ -75,6 +75,118 @@ public class ModSounds {
     public static final RegistryKey<JukeboxSong> LIVING_ROOM_SONG_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "living_room_song"));
 
+    public static final SoundEvent ZOMBIE_PLAGUE_SONG = registerSoundEvent("zombie_plague_song");
+    public static final RegistryKey<JukeboxSong> ZOMBIE_PLAGUE_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "zombie_plague_song"));
+
+    public static final SoundEvent BAD_COMPOSITION_SONG = registerSoundEvent("bad_composition_song");
+    public static final RegistryKey<JukeboxSong> BAD_COMPOSITION_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "bad_composition_song"));
+
+    public static final SoundEvent POSSESSIVE_MASK_SONG = registerSoundEvent("possessive_mask_song");
+    public static final RegistryKey<JukeboxSong> POSSESSIVE_MASK_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "possessive_mask_song"));
+
+    public static final SoundEvent PLAGUE_DOCTOR_SONG = registerSoundEvent("plague_doctor_song");
+    public static final RegistryKey<JukeboxSong> PLAGUE_DOCTOR_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "plague_doctor_song"));
+
+    public static final SoundEvent ERICS_TOY_SONG = registerSoundEvent("erics_toy_song");
+    public static final RegistryKey<JukeboxSong> ERICS_TOY_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "erics_toy_song"));
+
+    public static final SoundEvent OLD_AI_SONG = registerSoundEvent("old_ai_song");
+    public static final RegistryKey<JukeboxSong> OLD_AI_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "old_ai_song"));
+
+    public static final SoundEvent ENDLESS_STAIRCASE_SONG = registerSoundEvent("endless_staircase_song");
+    public static final RegistryKey<JukeboxSong> ENDLESS_STAIRCASE_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "endless_staircase_song"));
+
+    public static final SoundEvent SHY_GUY_SONG = registerSoundEvent("shy_guy_song");
+    public static final RegistryKey<JukeboxSong> SHY_GUY_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "shy_guy_song"));
+
+    public static final SoundEvent OLD_MAN_SONG = registerSoundEvent("old_man_song");
+    public static final RegistryKey<JukeboxSong> OLD_MAN_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "old_man_song"));
+
+    public static final SoundEvent SCULPTURE_SONG = registerSoundEvent("sculpture_song");
+    public static final RegistryKey<JukeboxSong> SCULPTURE_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "sculpture_song"));
+
+    public static final SoundEvent SPECS_SONG = registerSoundEvent("specs_song");
+    public static final RegistryKey<JukeboxSong> SPECS_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "specs_song"));
+
+    public static final SoundEvent SHADOW_LAMPS_SONG = registerSoundEvent("shadow_lamps_song");
+    public static final RegistryKey<JukeboxSong> SHADOW_LAMPS_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "shadow_lamps_song"));
+
+    public static final SoundEvent COLA_BOTTLE_SONG = registerSoundEvent("cola_bottle_song");
+    public static final RegistryKey<JukeboxSong> COLA_BOTTLE_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "cola_bottle_song"));
+
+    public static final SoundEvent COFFEE_MACHINE_SONG = registerSoundEvent("coffee_machine_song");
+    public static final RegistryKey<JukeboxSong> COFFEE_MACHINE_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "coffee_machine_song"));
+
+    public static final SoundEvent TAKE_ONLY_TWO_SONG = registerSoundEvent("take_only_two_song");
+    public static final RegistryKey<JukeboxSong> TAKE_ONLY_TWO_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "take_only_two_song"));
+
+    public static final SoundEvent PERIPHERAL_JUMPER_SONG = registerSoundEvent("peripheral_jumper_song");
+    public static final RegistryKey<JukeboxSong> PERIPHERAL_JUMPER_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "peripheral_jumper_song"));
+
+    public static final SoundEvent CONTAGIOUS_CRYSTAL_SONG = registerSoundEvent("contagious_crystal_song");
+    public static final RegistryKey<JukeboxSong> CONTAGIOUS_CRYSTAL_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "contagious_crystal_song"));
+
+    public static final SoundEvent COWBELL_SONG = registerSoundEvent("cowbell_song");
+    public static final RegistryKey<JukeboxSong> COWBELL_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "cowbell_song"));
+
+    public static final SoundEvent CRYSTALLINE_BUTTERFLIES_SONG = registerSoundEvent("crystalline_butterflies_song");
+    public static final RegistryKey<JukeboxSong> CRYSTALLINE_BUTTERFLIES_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "crystalline_butterflies_song"));
+
+    public static final SoundEvent BLACK_STATUE_SONG = registerSoundEvent("black_statue_song");
+    public static final RegistryKey<JukeboxSong> BLACK_STATUE_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "black_statue_song"));
+
+    public static final SoundEvent JADED_RING_SONG = registerSoundEvent("jaded_ring_song");
+    public static final RegistryKey<JukeboxSong> JADED_RING_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "jaded_ring_song"));
+
+    public static final SoundEvent BLUE_KEY_SONG = registerSoundEvent("blue_key_song");
+    public static final RegistryKey<JukeboxSong> BLUE_KEY_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "blue_key_song"));
+
+    public static final SoundEvent CAMERA_DISRUPTION_SONG = registerSoundEvent("camera_disruption_song");
+    public static final RegistryKey<JukeboxSong> CAMERA_DISRUPTION_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "camera_disruption_song"));
+
+    public static final SoundEvent CLOCKWORKS_SONG = registerSoundEvent("clockworks_song");
+    public static final RegistryKey<JukeboxSong> CLOCKWORKS_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "clockworks_song"));
+
+    public static final SoundEvent WITH_MANY_VOICES_SONG = registerSoundEvent("with_many_voices_song");
+    public static final RegistryKey<JukeboxSong> WITH_MANY_VOICES_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "with_many_voices_song"));
+
+    public static final SoundEvent SLEEP_KILLER_SONG = registerSoundEvent("sleep_killer_song");
+    public static final RegistryKey<JukeboxSong> SLEEP_KILLER_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "sleep_killer_song"));
+
+    public static final SoundEvent RECURSIVE_ROOM_SONG = registerSoundEvent("recursive_room_song");
+    public static final RegistryKey<JukeboxSong> RECURSIVE_ROOM_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "recursive_room_song"));
+
+    public static final SoundEvent BIRTHDAY_MONKEY_SONG = registerSoundEvent("birthday_monkey_song");
+    public static final RegistryKey<JukeboxSong> BIRTHDAY_MONKEY_SONG_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(SCPcraftReinforced.MOD_ID, "birthday_monkey_song"));
+
 
 
 

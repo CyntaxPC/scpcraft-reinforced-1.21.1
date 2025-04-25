@@ -1,3 +1,6 @@
 {
-  "parent": "scpcraftreinforced:block/birch_shelf"
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scpcraftreinforced:item/birch_shelf"
+  }
 }
