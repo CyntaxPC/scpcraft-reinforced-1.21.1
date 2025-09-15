@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "scpcraftreinforced:block/iridium_block_slab"
+    },
+    "type=double": {
+      "model": "scpcraftreinforced:block/iridium_block"
+    },
+    "type=top": {
+      "model": "scpcraftreinforced:block/iridium_block_slab_top"
+    }
+  }
+}

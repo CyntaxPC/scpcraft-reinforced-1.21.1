@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/platinum_block",
+    "side": "scpcraftreinforced:block/platinum_block",
+    "top": "scpcraftreinforced:block/platinum_block"
+  }
+}

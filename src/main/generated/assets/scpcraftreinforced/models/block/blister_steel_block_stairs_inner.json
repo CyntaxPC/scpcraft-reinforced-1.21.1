@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/blister_steel_block",
+    "side": "scpcraftreinforced:block/blister_steel_block",
+    "top": "scpcraftreinforced:block/blister_steel_block"
+  }
+}

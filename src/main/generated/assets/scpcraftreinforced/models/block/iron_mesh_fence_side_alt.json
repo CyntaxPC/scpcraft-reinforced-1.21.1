@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "scpcraftreinforced:block/iron_mesh_fence_top",
+    "pane": "scpcraftreinforced:block/iron_grate"
+  }
+}

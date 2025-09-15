@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "scpcraftreinforced:block/blister_steel_door_bottom",
+    "top": "scpcraftreinforced:block/blister_steel_door_top"
+  }
+}

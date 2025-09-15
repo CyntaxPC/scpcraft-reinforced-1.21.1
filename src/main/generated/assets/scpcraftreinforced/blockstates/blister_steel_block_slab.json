@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "scpcraftreinforced:block/blister_steel_block_slab"
+    },
+    "type=double": {
+      "model": "scpcraftreinforced:block/blister_steel_block"
+    },
+    "type=top": {
+      "model": "scpcraftreinforced:block/blister_steel_block_slab_top"
+    }
+  }
+}
