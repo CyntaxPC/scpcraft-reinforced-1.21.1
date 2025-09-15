@@ -15,6 +15,10 @@
   "block.scpcraftreinforced.deepslate_iridium_ore": "Deepslate Iridium Ore",
   "block.scpcraftreinforced.platinum_block": "Block of Platinum",
   "block.scpcraftreinforced.iridium_block": "Block of Iridium",
+  "block.scpcraftreinforced.iron_grate": "Iron Grate",
+  "block.scpcraftreinforced.iron_mesh_fence": "Iron Mesh Fence",
+
+
 
   "block.scpcraftreinforced.bladewood_log": "Bladewood Log",
   "block.scpcraftreinforced.bladewood_wood": "Bladewood Wood",
@@ -48,6 +52,15 @@
   "block.scpcraftreinforced.bladewood_fence_gate": "Bladewood Fence Gate",
   "block.scpcraftreinforced.bladewood_door": "Bladewood Door",
   "block.scpcraftreinforced.bladewood_trapdoor": "Bladewood Trapdoor",
+  "block.scpcraftreinforced.blister_steel_door": "Blister Steel Door",
+  "block.scpcraftreinforced.blister_steel_trapdoor": "Blister Steel Trapdoor",
+  "block.scpcraftreinforced.blister_steel_block_slab": "Blister Steel Slab",
+  "block.scpcraftreinforced.blister_steel_block_stairs": "Blister Steel Stairs",
+  "block.scpcraftreinforced.platinum_block_slab": "Platinum Slab",
+  "block.scpcraftreinforced.platinum_block_stairs": "Platinum Stairs",
+  "block.scpcraftreinforced.iridium_block_slab": "Iridium Slab",
+  "block.scpcraftreinforced.iridium_block_stairs": "Iridium Stairs",
+
 
   "block.scpcraftreinforced.polished_deep_granite_bricks": "Polished Deep Granite Bricks",
   "block.scpcraftreinforced.polished_deep_granite_bricks_slab": "Polished Deep Granite Brick Slab",
@@ -88,6 +101,7 @@
   "block.scpcraftreinforced.bladewood_chair": "Bladewood Chair",
   "block.scpcraftreinforced.warped_chair": "Warped Chair",
   "block.scpcraftreinforced.crimson_chair": "Crimson Chair",
+  "block.scpcraftreinforced.iron_chair": "Iron Chair",
 
   "block.scpcraftreinforced.oak_table": "Oak Table",
   "block.scpcraftreinforced.birch_table": "Birch Table",
@@ -101,6 +115,7 @@
   "block.scpcraftreinforced.warped_table": "Warped Table",
   "block.scpcraftreinforced.crimson_table": "Crimson Table",
   "block.scpcraftreinforced.glass_table": "Glass Table",
+  "block.scpcraftreinforced.iron_table": "Iron Table",
 
   "block.scpcraftreinforced.reinforced_glass": "Reinforced Glass",
   "block.scpcraftreinforced.reinforced_glass_pane": "Reinforced Glass Pane",
@@ -116,6 +131,7 @@
   "block.scpcraftreinforced.warped_shelf": "Warped Shelf",
   "block.scpcraftreinforced.crimson_shelf": "Crimson Shelf",
   "block.scpcraftreinforced.bladewood_shelf": "Bladewood Shelf",
+  "block.scpcraftreinforced.iron_shelf": "Iron Shelf",
 
   "item.scpcraftreinforced.living_room_music_disc": "Music Disc",
   "item.scpcraftreinforced.living_room_music_disc.desc": "Glenn Leroi - SCP 002 Song",
@@ -243,6 +259,7 @@
   "item.scpcraftreinforced.bladewood_hoe": "Bladewood Hoe",
 
   "itemgroup.scpcraftreinforced.scpcraftreinforced_blocks": "SCPcraft: Reinforced Blocks",
+  "itemgroup.scpcraftreinforced.scpcraftreinforced_furniture": "SCPcraft: Reinforced Furniture",
   "itemgroup.scpcraftreinforced.scpcraftreinforced_items": "SCPcraft: Reinforced Items",
   "itemgroup.scpcraftreinforced.scpcraftreinforced_music_discs": "SCPcraft: Reinforced Music Discs"
 

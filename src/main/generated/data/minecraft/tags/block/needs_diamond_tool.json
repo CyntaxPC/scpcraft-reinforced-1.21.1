@@ -1,6 +1,8 @@
 {
   "values": [
     "scpcraftreinforced:iridium_block",
+    "scpcraftreinforced:iridium_block_slab",
+    "scpcraftreinforced:iridium_block_stairs",
     "scpcraftreinforced:deepslate_iridium_ore",
     "scpcraftreinforced:bladewood_log",
     "scpcraftreinforced:bladewood_wood",
@@ -16,6 +18,7 @@
     "scpcraftreinforced:bladewood_door",
     "scpcraftreinforced:bladewood_trapdoor",
     "scpcraftreinforced:bladewood_fence_gate",
-    "scpcraftreinforced:bladewood_planks"
+    "scpcraftreinforced:bladewood_planks",
+    "scpcraftreinforced:bladewood_shelf"
   ]
 }

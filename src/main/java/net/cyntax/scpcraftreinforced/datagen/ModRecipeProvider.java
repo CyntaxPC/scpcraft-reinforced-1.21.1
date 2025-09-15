@@ -66,6 +66,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.PLATINUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.PLATINUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.IRIDIUM_INGOT, RecipeCategory.DECORATIONS, ModBlocks.IRIDIUM_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLISTER_STEEL_INGOT, RecipeCategory.DECORATIONS, ModBlocks.BLISTER_STEEL_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.BLISTER_STEEL_BLOCK_SLAB, ModBlocks.BLISTER_STEEL_BLOCK);
+        createStairsRecipe(ModBlocks.BLISTER_STEEL_BLOCK_STAIRS, Ingredient.ofItems(ModBlocks.BLISTER_STEEL_BLOCK))
+                .criterion(hasItem(ModBlocks.BLISTER_STEEL_BLOCK), conditionsFromItem(ModBlocks.BLISTER_STEEL_BLOCK))
+                .offerTo(exporter);
+
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.PLATINUM_BLOCK_SLAB, ModBlocks.PLATINUM_BLOCK);
+        createStairsRecipe(ModBlocks.PLATINUM_BLOCK_STAIRS, Ingredient.ofItems(ModBlocks.PLATINUM_BLOCK))
+                .criterion(hasItem(ModBlocks.PLATINUM_BLOCK), conditionsFromItem(ModBlocks.PLATINUM_BLOCK))
+                .offerTo(exporter);
+
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.IRIDIUM_BLOCK_SLAB, ModBlocks.IRIDIUM_BLOCK);
+        createStairsRecipe(ModBlocks.IRIDIUM_BLOCK_STAIRS, Ingredient.ofItems(ModBlocks.IRIDIUM_BLOCK))
+                .criterion(hasItem(ModBlocks.IRIDIUM_BLOCK), conditionsFromItem(ModBlocks.IRIDIUM_BLOCK))
+                .offerTo(exporter);
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IRON_BLAST, 1)
                 .input(Items.CHARCOAL)
@@ -246,8 +260,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.BLADEWOOD_PLANKS), conditionsFromItem(ModBlocks.BLADEWOOD_PLANKS))
                 .offerTo(exporter);
 
+        createDoorRecipe(ModBlocks.BLISTER_STEEL_DOOR, Ingredient.ofItems(ModItems.BLISTER_STEEL_INGOT))
+                .criterion(hasItem(ModItems.BLISTER_STEEL_INGOT), conditionsFromItem(ModItems.BLISTER_STEEL_INGOT))
+                .offerTo(exporter);
+
         createTrapdoorRecipe(ModBlocks.BLADEWOOD_TRAPDOOR, Ingredient.ofItems(ModBlocks.BLADEWOOD_PLANKS))
                 .criterion(hasItem(ModBlocks.BLADEWOOD_PLANKS), conditionsFromItem(ModBlocks.BLADEWOOD_PLANKS))
+                .offerTo(exporter);
+
+        createTrapdoorRecipe(ModBlocks.BLISTER_STEEL_TRAPDOOR, Ingredient.ofItems(ModItems.BLISTER_STEEL_INGOT))
+                .criterion(hasItem(ModItems.BLISTER_STEEL_INGOT), conditionsFromItem(ModItems.BLISTER_STEEL_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.BLADEWOOD_BUTTON, 1)
@@ -274,12 +296,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IRON_GRATE, 2)
+                .pattern("X X")
+                .pattern(" X ")
+                .pattern("X X")
+                .input('X', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter);
+
+
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.OAK_TABLE, 2)
                 .pattern("WWW")
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.OAK_PLANKS)
+                .input('W', ModBlocks.OAK_SHELF)
                 .criterion(hasItem(Blocks.OAK_PLANKS), conditionsFromItem(Blocks.OAK_PLANKS))
                 .offerTo(exporter);
 
@@ -288,7 +320,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.BIRCH_PLANKS)
+                .input('W', ModBlocks.BIRCH_SHELF)
                 .criterion(hasItem(Blocks.BIRCH_PLANKS), conditionsFromItem(Blocks.BIRCH_PLANKS))
                 .offerTo(exporter);
 
@@ -297,7 +329,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.SPRUCE_PLANKS)
+                .input('W', ModBlocks.SPRUCE_SHELF)
                 .criterion(hasItem(Blocks.SPRUCE_PLANKS), conditionsFromItem(Blocks.SPRUCE_PLANKS))
                 .offerTo(exporter);
 
@@ -306,7 +338,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.JUNGLE_PLANKS)
+                .input('W', ModBlocks.JUNGLE_SHELF)
                 .criterion(hasItem(Blocks.JUNGLE_PLANKS), conditionsFromItem(Blocks.JUNGLE_PLANKS))
                 .offerTo(exporter);
 
@@ -315,7 +347,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.DARK_OAK_PLANKS)
+                .input('W', ModBlocks.DARK_OAK_SHELF)
                 .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
                 .offerTo(exporter);
 
@@ -324,7 +356,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.ACACIA_PLANKS)
+                .input('W', ModBlocks.ACACIA_SHELF)
                 .criterion(hasItem(Blocks.ACACIA_PLANKS), conditionsFromItem(Blocks.ACACIA_PLANKS))
                 .offerTo(exporter);
 
@@ -333,7 +365,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.CHERRY_PLANKS)
+                .input('W', ModBlocks.CHERRY_SHELF)
                 .criterion(hasItem(Blocks.CHERRY_PLANKS), conditionsFromItem(Blocks.CHERRY_PLANKS))
                 .offerTo(exporter);
 
@@ -342,7 +374,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.MANGROVE_PLANKS)
+                .input('W', ModBlocks.MANGROVE_SHELF)
                 .criterion(hasItem(Blocks.MANGROVE_PLANKS), conditionsFromItem(Blocks.MANGROVE_PLANKS))
                 .offerTo(exporter);
 
@@ -351,7 +383,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', ModBlocks.BLADEWOOD_PLANKS)
+                .input('W', ModBlocks.BLADEWOOD_SHELF)
                 .criterion(hasItem(ModBlocks.BLADEWOOD_PLANKS), conditionsFromItem(ModBlocks.BLADEWOOD_PLANKS))
                 .offerTo(exporter);
 
@@ -360,7 +392,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.WARPED_PLANKS)
+                .input('W', ModBlocks.WARPED_SHELF)
                 .criterion(hasItem(Blocks.WARPED_PLANKS), conditionsFromItem(Blocks.WARPED_PLANKS))
                 .offerTo(exporter);
 
@@ -369,7 +401,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("X X")
                 .pattern("X X")
                 .input('X', Items.IRON_INGOT)
-                .input('W', Blocks.CRIMSON_PLANKS)
+                .input('W', ModBlocks.CRIMSON_SHELF)
                 .criterion(hasItem(Blocks.CRIMSON_PLANKS), conditionsFromItem(Blocks.CRIMSON_PLANKS))
                 .offerTo(exporter);
 
@@ -380,6 +412,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('X', Items.IRON_INGOT)
                 .input('W', Blocks.GLASS)
                 .criterion(hasItem(Blocks.GLASS), conditionsFromItem(Blocks.GLASS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IRON_TABLE, 2)
+                .pattern("TTT")
+                .pattern("X X")
+                .pattern("X X")
+                .input('X', Items.IRON_INGOT)
+                .input('T', ModBlocks.IRON_SHELF)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter);
 
 
@@ -483,6 +524,29 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.CRIMSON_PLANKS), conditionsFromItem(Blocks.CRIMSON_PLANKS))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IRON_CHAIR, 2)
+                .pattern("X  ")
+                .pattern("XX ")
+                .pattern("XX ")
+                .input('X', Items.IRON_INGOT)
+                .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
+                .offerTo(exporter);
+
+
+
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.OAK_SHELF, Blocks.OAK_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.BIRCH_SHELF, Blocks.BIRCH_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.SPRUCE_SHELF, Blocks.SPRUCE_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.JUNGLE_SHELF, Blocks.JUNGLE_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.ACACIA_SHELF, Blocks.ACACIA_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.DARK_OAK_SHELF, Blocks.DARK_OAK_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.CHERRY_SHELF, Blocks.CHERRY_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.MANGROVE_SHELF, Blocks.MANGROVE_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.CRIMSON_SHELF, Blocks.CRIMSON_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.WARPED_SHELF, Blocks.WARPED_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.BLADEWOOD_SHELF, ModBlocks.BLADEWOOD_SLAB);
+        offerSlabRecipe(exporter, RecipeCategory.MISC, ModBlocks.IRON_SHELF, Items.IRON_INGOT);
+
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.REINFORCED_GLASS, 4)
@@ -501,6 +565,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("GGG")
                 .input('G', ModBlocks.REINFORCED_GLASS)
                 .criterion(hasItem(ModBlocks.REINFORCED_GLASS), conditionsFromItem(ModBlocks.REINFORCED_GLASS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IRON_MESH_FENCE, 16)
+                .pattern("   ")
+                .pattern("GGG")
+                .pattern("GGG")
+                .input('G', ModBlocks.IRON_GRATE)
+                .criterion(hasItem(ModBlocks.IRON_GRATE), conditionsFromItem(ModBlocks.IRON_GRATE))
                 .offerTo(exporter);
 
 

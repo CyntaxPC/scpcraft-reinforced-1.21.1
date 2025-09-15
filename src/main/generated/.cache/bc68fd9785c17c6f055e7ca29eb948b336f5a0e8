@@ -1,12 +1,13 @@
-// 1.21.1	2025-04-24T19:23:39.6865726	SCPcraft: Reinforced/Tags for minecraft:block
-922e76a5801712bc462393864e6e1fd3606d893d data\minecraft\tags\block\needs_iron_tool.json
-e369989975a1a84d9e555af1f47875109460b07f data\minecraft\tags\block\needs_diamond_tool.json
+// 1.21.1	2025-09-14T19:59:16.9503508	SCPcraft: Reinforced/Tags for minecraft:block
+b0159a6c28d87a74803e38bbede30732bb86311a data\minecraft\tags\block\needs_iron_tool.json
+449649bffcc6e1460ce9812ea0ea1f12f01b41e5 data\minecraft\tags\block\needs_diamond_tool.json
+572109e6df6299557fa1062508812945e171089a data\minecraft\tags\block\needs_stone_tool.json
 9decf94502d60f1586e39e5470b381ea2ebbc856 data\minecraft\tags\block\wooden_fences.json
 c600d6536004089a88eb3a7f9c7ee29bd560785c data\minecraft\tags\block\walls.json
-b2c70325af222f67f6a74083ec226a09e8ac63c9 data\minecraft\tags\block\mineable\axe.json
+ac496720e39a6e3655e5a6e5034c324217714d5f data\minecraft\tags\block\mineable\axe.json
 a249c46329a41538f49a564e1f14338aaf1be5a0 data\scpcraftreinforced\tags\block\needs_iridium_tool.json
 2442d4fbf6e842b156386f898d3e9f96c16ea602 data\minecraft\tags\block\logs_that_burn.json
-adb01d25fdfedf36d760b0e49d9b70fdc2c9f1cc data\minecraft\tags\block\mineable\pickaxe.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\scpcraftreinforced\tags\block\needs_platinum_tool.json
 82c2282c063c037ea4bcc675471708be369a1400 data\minecraft\tags\block\fence_gates.json
 32b13946c4cd1f944b029659ccce5fcb2adad4ff data\scpcraftreinforced\tags\block\needs_bladewood_tool.json
+40926e01f904af4956b7f646a60b634e0fcb2e31 data\minecraft\tags\block\mineable\pickaxe.json

@@ -1,10 +1,7 @@
 package net.cyntax.scpcraftreinforced.block;
 
 import net.cyntax.scpcraftreinforced.SCPcraftReinforced;
-import net.cyntax.scpcraftreinforced.block.custom.ChairBlock;
-import net.cyntax.scpcraftreinforced.block.custom.GlassTableBlock;
-import net.cyntax.scpcraftreinforced.block.custom.ShelfBlock;
-import net.cyntax.scpcraftreinforced.block.custom.TableBlock;
+import net.cyntax.scpcraftreinforced.block.custom.*;
 import net.cyntax.scpcraftreinforced.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -260,10 +257,30 @@ public class ModBlocks {
             new SlabBlock(AbstractBlock.Settings.create()
                     .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.STONE)));
 
-    public static final Block MOSSY_POLISHED_MARBLE_BRICKS_WALL= registerBlock("mossy_polished_marble_bricks_wall",
+    public static final Block MOSSY_POLISHED_MARBLE_BRICKS_WALL = registerBlock("mossy_polished_marble_bricks_wall",
             new WallBlock(AbstractBlock.Settings.create()
                     .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.STONE)));
 
+    public static final Block BLISTER_STEEL_BLOCK_STAIRS = registerBlock("blister_steel_block_stairs",
+            new StairsBlock(ModBlocks.BLISTER_STEEL_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+    public static final Block BLISTER_STEEL_BLOCK_SLAB = registerBlock("blister_steel_block_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+    public static final Block PLATINUM_BLOCK_STAIRS = registerBlock("platinum_block_stairs",
+            new StairsBlock(ModBlocks.PLATINUM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+    public static final Block PLATINUM_BLOCK_SLAB = registerBlock("platinum_block_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+    public static final Block IRIDIUM_BLOCK_STAIRS = registerBlock("iridium_block_stairs",
+            new StairsBlock(ModBlocks.IRIDIUM_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
+
+    public static final Block IRIDIUM_BLOCK_SLAB = registerBlock("iridium_block_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2.5f).requiresTool()));
 
 
 
@@ -304,7 +321,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.CHERRY_WOOD)));
 
     public static final Block BLADEWOOD_LEAVES = registerBlock("bladewood_leaves",
-            new LeavesBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES)));
+            new BladewoodLeafBlock(AbstractBlock.Settings.copy(Blocks.CHERRY_LEAVES).nonOpaque()));
 
     public static final Block BLADEWOOD_SAPLING = registerBlock("bladewood_sapling",
             new SaplingBlock(ModSaplingGenerators.BLADEWOOD, AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
@@ -340,6 +357,14 @@ public class ModBlocks {
     public static final Block BLADEWOOD_TRAPDOOR = registerBlock("bladewood_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, AbstractBlock.Settings.create()
                     .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.CHERRY_WOOD).nonOpaque()));
+
+    public static final Block BLISTER_STEEL_DOOR = registerBlock("blister_steel_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create()
+                    .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+
+    public static final Block BLISTER_STEEL_TRAPDOOR = registerBlock("blister_steel_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create()
+                    .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
 
 
@@ -383,6 +408,9 @@ public class ModBlocks {
     public static final Block CRIMSON_CHAIR = registerBlock("crimson_chair",
             new ChairBlock(AbstractBlock.Settings.create()
                     .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.NETHER_WOOD)));
+    public static final Block IRON_CHAIR = registerBlock("iron_chair",
+            new ChairBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.METAL)));
 
 
     public static final Block OAK_TABLE = registerBlock("oak_table",
@@ -421,14 +449,23 @@ public class ModBlocks {
     public static final Block GLASS_TABLE = registerBlock("glass_table",
             new GlassTableBlock(AbstractBlock.Settings.create()
                     .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.GLASS)));
+    public static final Block IRON_TABLE = registerBlock("iron_table",
+            new TableBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.METAL)));
 
 
     public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
             new TranslucentBlock(AbstractBlock.Settings.create()
                     .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block IRON_GRATE = registerBlock("iron_grate",
+            new TranslucentBlock(AbstractBlock.Settings.create()
+                    .strength(1.0f, 1).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
     public static final Block REINFORCED_GLASS_PANE = registerBlock("reinforced_glass_pane",
             new PaneBlock(AbstractBlock.Settings.create()
                     .strength(2.5f, 6).requiresTool().sounds(BlockSoundGroup.GLASS).nonOpaque()));
+    public static final Block IRON_MESH_FENCE = registerBlock("iron_mesh_fence",
+            new PaneBlock(AbstractBlock.Settings.create()
+                    .strength(1.0f, 1).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
 
     public static final Block OAK_SHELF = registerBlock("oak_shelf",
@@ -464,6 +501,9 @@ public class ModBlocks {
     public static final Block BLADEWOOD_SHELF = registerBlock("bladewood_shelf",
             new ShelfBlock(AbstractBlock.Settings.create()
                     .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.WOOD)));
+    public static final Block IRON_SHELF = registerBlock("iron_shelf",
+            new ShelfBlock(AbstractBlock.Settings.create()
+                    .nonOpaque().strength(1.0f, 1).sounds(BlockSoundGroup.METAL)));
 
 
 

@@ -21,6 +21,15 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.IRIDIUM_BLOCK);
         addDrop(ModBlocks.BLISTER_STEEL_BLOCK);
 
+        addDrop(ModBlocks.BLISTER_STEEL_BLOCK_SLAB, slabDrops(ModBlocks.BLISTER_STEEL_BLOCK_SLAB));
+        addDrop(ModBlocks.BLISTER_STEEL_BLOCK_STAIRS);
+
+        addDrop(ModBlocks.PLATINUM_BLOCK_SLAB, slabDrops(ModBlocks.PLATINUM_BLOCK_SLAB));
+        addDrop(ModBlocks.PLATINUM_BLOCK_STAIRS);
+
+        addDrop(ModBlocks.IRIDIUM_BLOCK_SLAB, slabDrops(ModBlocks.IRIDIUM_BLOCK_SLAB));
+        addDrop(ModBlocks.IRIDIUM_BLOCK_STAIRS);
+
         addDrop(ModBlocks.DEEP_GRANITE);
         addDrop(ModBlocks.DEEP_GRANITE_SLAB, slabDrops(ModBlocks.DEEP_GRANITE_SLAB));
         addDrop(ModBlocks.DEEP_GRANITE_STAIRS);
@@ -39,8 +48,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRACKED_POLISHED_DEEP_GRANITE_BRICKS_SLAB, slabDrops(ModBlocks.CRACKED_POLISHED_DEEP_GRANITE_BRICKS_SLAB));
         addDrop(ModBlocks.CRACKED_POLISHED_DEEP_GRANITE_BRICKS_STAIRS);
         addDrop(ModBlocks.CRACKED_POLISHED_DEEP_GRANITE_BRICKS_WALL);
-        addDrop(ModBlocks.CRACKED_POLISHED_DEEP_GRANITE_BRICKS);
-        addDrop(ModBlocks.MOSSY_POLISHED_DEEP_GRANITE_BRICKS_SLAB, slabDrops(ModBlocks.CRACKED_POLISHED_DEEP_GRANITE_BRICKS_SLAB));
+        addDrop(ModBlocks.MOSSY_POLISHED_DEEP_GRANITE_BRICKS);
+        addDrop(ModBlocks.MOSSY_POLISHED_DEEP_GRANITE_BRICKS_SLAB, slabDrops(ModBlocks.MOSSY_POLISHED_DEEP_GRANITE_BRICKS_SLAB));
         addDrop(ModBlocks.MOSSY_POLISHED_DEEP_GRANITE_BRICKS_STAIRS);
         addDrop(ModBlocks.MOSSY_POLISHED_DEEP_GRANITE_BRICKS_WALL);
         addDrop(ModBlocks.CHISELED_POLISHED_DEEP_GRANITE_BRICKS);
@@ -63,8 +72,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRACKED_POLISHED_MARBLE_BRICKS_SLAB, slabDrops(ModBlocks.CRACKED_POLISHED_MARBLE_BRICKS_SLAB));
         addDrop(ModBlocks.CRACKED_POLISHED_MARBLE_BRICKS_STAIRS);
         addDrop(ModBlocks.CRACKED_POLISHED_MARBLE_BRICKS_WALL);
-        addDrop(ModBlocks.CRACKED_POLISHED_MARBLE_BRICKS);
-        addDrop(ModBlocks.MOSSY_POLISHED_MARBLE_BRICKS_SLAB, slabDrops(ModBlocks.CRACKED_POLISHED_MARBLE_BRICKS_SLAB));
+        addDrop(ModBlocks.MOSSY_POLISHED_MARBLE_BRICKS);
+        addDrop(ModBlocks.MOSSY_POLISHED_MARBLE_BRICKS_SLAB, slabDrops(ModBlocks.MOSSY_POLISHED_MARBLE_BRICKS_SLAB));
         addDrop(ModBlocks.MOSSY_POLISHED_MARBLE_BRICKS_STAIRS);
         addDrop(ModBlocks.MOSSY_POLISHED_MARBLE_BRICKS_WALL);
         addDrop(ModBlocks.CHISELED_POLISHED_MARBLE_BRICKS);
@@ -72,7 +81,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLADEWOOD_LOG);
         addDrop(ModBlocks.BLADEWOOD_WOOD);
         addDrop(ModBlocks.STRIPPED_BLADEWOOD_LOG);
-        addDrop(ModBlocks.STRIPPED_BLADEWOOD_LOG);
+        addDrop(ModBlocks.STRIPPED_BLADEWOOD_WOOD);
         addDrop(ModBlocks.BLADEWOOD_PLANKS);
         addDrop(ModBlocks.BLADEWOOD_SAPLING);
         addDrop(ModBlocks.BLADEWOOD_SLAB, slabDrops(ModBlocks.BLADEWOOD_SLAB));
@@ -84,7 +93,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLADEWOOD_FENCE);
         addDrop(ModBlocks.BLADEWOOD_FENCE_GATE);
         addDrop(ModBlocks.BLADEWOOD_LEAVES, leavesDrops(ModBlocks.BLADEWOOD_LEAVES, ModBlocks.BLADEWOOD_SAPLING, 0.0625f));
-
+        addDrop(ModBlocks.BLISTER_STEEL_DOOR, doorDrops(ModBlocks.BLISTER_STEEL_DOOR));
+        addDrop(ModBlocks.BLISTER_STEEL_TRAPDOOR);
         addDrop(ModBlocks.OAK_CHAIR);
         addDrop(ModBlocks.BIRCH_CHAIR);
         addDrop(ModBlocks.SPRUCE_CHAIR);
@@ -96,6 +106,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BLADEWOOD_CHAIR);
         addDrop(ModBlocks.WARPED_CHAIR);
         addDrop(ModBlocks.CRIMSON_CHAIR);
+        addDrop(ModBlocks.IRON_CHAIR);
 
         addDrop(ModBlocks.OAK_TABLE);
         addDrop(ModBlocks.BIRCH_TABLE);
@@ -109,6 +120,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WARPED_TABLE);
         addDrop(ModBlocks.CRIMSON_TABLE);
         addDrop(ModBlocks.GLASS_TABLE);
+        addDrop(ModBlocks.IRON_TABLE);
 
         addDrop(ModBlocks.OAK_SHELF);
         addDrop(ModBlocks.BIRCH_SHELF);
@@ -121,6 +133,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CRIMSON_SHELF);
         addDrop(ModBlocks.WARPED_SHELF);
         addDrop(ModBlocks.BLADEWOOD_SHELF);
+        addDrop(ModBlocks.IRON_SHELF);
+
+        addDrop(ModBlocks.IRON_GRATE);
+        addDrop(ModBlocks.IRON_MESH_FENCE);
 
         addDrop(ModBlocks.REINFORCED_GLASS);
         addDrop(ModBlocks.REINFORCED_GLASS_PANE);

@@ -16,11 +16,22 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BLISTER_STEEL_BLOCK))
                     .displayName(Text.translatable("itemgroup.scpcraftreinforced.scpcraftreinforced_blocks"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModBlocks.DEEPSLATE_PLATINUM_ORE);
                         entries.add(ModBlocks.DEEPSLATE_IRIDIUM_ORE);
                         entries.add(ModBlocks.PLATINUM_BLOCK);
+                        entries.add(ModBlocks.PLATINUM_BLOCK_STAIRS);
+                        entries.add(ModBlocks.PLATINUM_BLOCK_SLAB);
                         entries.add(ModBlocks.IRIDIUM_BLOCK);
+                        entries.add(ModBlocks.IRIDIUM_BLOCK_STAIRS);
+                        entries.add(ModBlocks.IRIDIUM_BLOCK_SLAB);
                         entries.add(ModBlocks.BLISTER_STEEL_BLOCK);
+                        entries.add(ModBlocks.BLISTER_STEEL_BLOCK_STAIRS);
+                        entries.add(ModBlocks.BLISTER_STEEL_BLOCK_SLAB);
+                        entries.add(ModBlocks.BLISTER_STEEL_DOOR);
+                        entries.add(ModBlocks.BLISTER_STEEL_TRAPDOOR);
+                        entries.add(ModBlocks.IRON_GRATE);
+                        entries.add(ModBlocks.IRON_MESH_FENCE);
 
                         entries.add(ModBlocks.REINFORCED_GLASS);
                         entries.add(ModBlocks.REINFORCED_GLASS_PANE);
@@ -89,42 +100,53 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLADEWOOD_DOOR);
                         entries.add(ModBlocks.BLADEWOOD_TRAPDOOR);
 
+                    }).build());
+
+
+
+    public static final ItemGroup SCPCRAFT_FURNITURE_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(SCPcraftReinforced.MOD_ID, "scpcraft_furniture_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.OAK_CHAIR))
+                    .displayName(Text.translatable("itemgroup.scpcraftreinforced.scpcraftreinforced_furniture"))
+                    .entries((displayContext, entries) -> {
+
                         entries.add(ModBlocks.OAK_CHAIR);
-                        entries.add(ModBlocks.BIRCH_CHAIR);
-                        entries.add(ModBlocks.SPRUCE_CHAIR);
-                        entries.add(ModBlocks.JUNGLE_CHAIR);
-                        entries.add(ModBlocks.DARK_OAK_CHAIR);
-                        entries.add(ModBlocks.ACACIA_CHAIR);
-                        entries.add(ModBlocks.MANGROVE_CHAIR);
-                        entries.add(ModBlocks.CHERRY_CHAIR);
-                        entries.add(ModBlocks.WARPED_CHAIR);
-                        entries.add(ModBlocks.CRIMSON_CHAIR);
-                        entries.add(ModBlocks.BLADEWOOD_CHAIR);
-
                         entries.add(ModBlocks.OAK_TABLE);
-                        entries.add(ModBlocks.BIRCH_TABLE);
-                        entries.add(ModBlocks.SPRUCE_TABLE);
-                        entries.add(ModBlocks.JUNGLE_TABLE);
-                        entries.add(ModBlocks.DARK_OAK_TABLE);
-                        entries.add(ModBlocks.ACACIA_TABLE);
-                        entries.add(ModBlocks.MANGROVE_TABLE);
-                        entries.add(ModBlocks.CHERRY_TABLE);
-                        entries.add(ModBlocks.WARPED_TABLE);
-                        entries.add(ModBlocks.CRIMSON_TABLE);
-                        entries.add(ModBlocks.BLADEWOOD_TABLE);
-                        entries.add(ModBlocks.GLASS_TABLE);
-
                         entries.add(ModBlocks.OAK_SHELF);
-                        entries.add(ModBlocks.BIRCH_SHELF);
+                        entries.add(ModBlocks.SPRUCE_CHAIR);
+                        entries.add(ModBlocks.SPRUCE_TABLE);
                         entries.add(ModBlocks.SPRUCE_SHELF);
+                        entries.add(ModBlocks.BIRCH_CHAIR);
+                        entries.add(ModBlocks.BIRCH_TABLE);
+                        entries.add(ModBlocks.BIRCH_SHELF);
+                        entries.add(ModBlocks.JUNGLE_CHAIR);
+                        entries.add(ModBlocks.JUNGLE_TABLE);
                         entries.add(ModBlocks.JUNGLE_SHELF);
+                        entries.add(ModBlocks.ACACIA_CHAIR);
+                        entries.add(ModBlocks.ACACIA_TABLE);
                         entries.add(ModBlocks.ACACIA_SHELF);
+                        entries.add(ModBlocks.DARK_OAK_CHAIR);
+                        entries.add(ModBlocks.DARK_OAK_TABLE);
                         entries.add(ModBlocks.DARK_OAK_SHELF);
-                        entries.add(ModBlocks.CHERRY_SHELF);
+                        entries.add(ModBlocks.MANGROVE_CHAIR);
+                        entries.add(ModBlocks.MANGROVE_TABLE);
                         entries.add(ModBlocks.MANGROVE_SHELF);
+                        entries.add(ModBlocks.CHERRY_CHAIR);
+                        entries.add(ModBlocks.CHERRY_TABLE);
+                        entries.add(ModBlocks.CHERRY_SHELF);
+                        entries.add(ModBlocks.CRIMSON_CHAIR);
+                        entries.add(ModBlocks.CRIMSON_TABLE);
                         entries.add(ModBlocks.CRIMSON_SHELF);
+                        entries.add(ModBlocks.WARPED_CHAIR);
+                        entries.add(ModBlocks.WARPED_TABLE);
                         entries.add(ModBlocks.WARPED_SHELF);
+                        entries.add(ModBlocks.BLADEWOOD_CHAIR);
+                        entries.add(ModBlocks.BLADEWOOD_TABLE);
                         entries.add(ModBlocks.BLADEWOOD_SHELF);
+                        entries.add(ModBlocks.IRON_CHAIR);
+                        entries.add(ModBlocks.IRON_TABLE);
+                        entries.add(ModBlocks.IRON_SHELF);
+                        entries.add(ModBlocks.GLASS_TABLE);
 
                     }).build());
 
@@ -133,6 +155,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.IRON_BLAST))
                     .displayName(Text.translatable("itemgroup.scpcraftreinforced.scpcraftreinforced_items"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModItems.RAW_PLATINUM);
                         entries.add(ModItems.PLATINUM_INGOT);
                         entries.add(ModItems.PLATINUM_SWORD);
@@ -170,6 +193,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.GENDER_SWITCHER_MUSIC_DISC))
                     .displayName(Text.translatable("itemgroup.scpcraftreinforced.scpcraftreinforced_music_discs"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModItems.LIVING_ROOM_MUSIC_DISC);
                         entries.add(ModItems.SKELETON_KEY_MUSIC_DISC);
                         entries.add(ModItems.FOUNTAIN_OF_YOUTH_MUSIC_DISC);
@@ -214,7 +238,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SLEEP_KILLER_MUSIC_DISC);
                         entries.add(ModItems.RECURSIVE_ROOM_MUSIC_DISC);
                         entries.add(ModItems.BIRTHDAY_MONKEY_MUSIC_DISC);
-
 
                     }).build());
 

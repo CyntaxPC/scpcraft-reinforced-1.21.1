@@ -1,9 +1,15 @@
 {
   "values": [
     "scpcraftreinforced:platinum_block",
+    "scpcraftreinforced:platinum_block_slab",
+    "scpcraftreinforced:platinum_block_stairs",
     "scpcraftreinforced:deepslate_platinum_ore",
     "scpcraftreinforced:blister_steel_block",
     "scpcraftreinforced:reinforced_glass",
-    "scpcraftreinforced:reinforced_glass_pane"
+    "scpcraftreinforced:reinforced_glass_pane",
+    "scpcraftreinforced:blister_steel_door",
+    "scpcraftreinforced:blister_steel_trapdoor",
+    "scpcraftreinforced:blister_steel_block_slab",
+    "scpcraftreinforced:blister_steel_block_stairs"
   ]
 }

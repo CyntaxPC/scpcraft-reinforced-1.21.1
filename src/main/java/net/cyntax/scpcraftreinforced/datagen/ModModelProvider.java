@@ -20,11 +20,23 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_PLATINUM_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_IRIDIUM_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PLATINUM_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRIDIUM_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLISTER_STEEL_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool blisterSteelBlockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BLISTER_STEEL_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool platinumBlockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PLATINUM_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool iridiumBlockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.IRIDIUM_BLOCK);
+
+        blisterSteelBlockPool.stairs(ModBlocks.BLISTER_STEEL_BLOCK_STAIRS);
+        blisterSteelBlockPool.slab(ModBlocks.BLISTER_STEEL_BLOCK_SLAB);
+
+        platinumBlockPool.stairs(ModBlocks.PLATINUM_BLOCK_STAIRS);
+        platinumBlockPool.slab(ModBlocks.PLATINUM_BLOCK_SLAB);
+
+        iridiumBlockPool.stairs(ModBlocks.IRIDIUM_BLOCK_STAIRS);
+        iridiumBlockPool.slab(ModBlocks.IRIDIUM_BLOCK_SLAB);
+
+
 
         blockStateModelGenerator.registerGlassPane(ModBlocks.REINFORCED_GLASS, ModBlocks.REINFORCED_GLASS_PANE);
+        blockStateModelGenerator.registerGlassPane(ModBlocks.IRON_GRATE, ModBlocks.IRON_MESH_FENCE);
 
 
         BlockStateModelGenerator.BlockTexturePool deepGranitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DEEP_GRANITE);
@@ -92,7 +104,9 @@ public class ModModelProvider extends FabricModelProvider {
         bladewoodPool.button(ModBlocks.BLADEWOOD_BUTTON);
         bladewoodPool.pressurePlate(ModBlocks.BLADEWOOD_PRESSURE_PLATE);
         blockStateModelGenerator.registerDoor(ModBlocks.BLADEWOOD_DOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.BLISTER_STEEL_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.BLADEWOOD_TRAPDOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.BLISTER_STEEL_TRAPDOOR);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OAK_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BIRCH_CHAIR);
@@ -105,6 +119,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLADEWOOD_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARPED_CHAIR);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CRIMSON_CHAIR);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IRON_CHAIR);
 
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.OAK_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BIRCH_TABLE);
@@ -117,6 +132,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.BLADEWOOD_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.WARPED_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CRIMSON_TABLE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.IRON_TABLE);
         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.GLASS_TABLE);
     }
 
@@ -187,6 +203,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModBlocks.BLADEWOOD_CHAIR.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.WARPED_CHAIR.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.CRIMSON_CHAIR.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.IRON_CHAIR.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModBlocks.OAK_TABLE.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.BIRCH_TABLE.asItem(), Models.GENERATED);
@@ -200,6 +217,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModBlocks.WARPED_TABLE.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.CRIMSON_TABLE.asItem(), Models.GENERATED);
         itemModelGenerator.register(ModBlocks.GLASS_TABLE.asItem(), Models.GENERATED);
+        itemModelGenerator.register(ModBlocks.IRON_TABLE.asItem(), Models.GENERATED);
 
 
 
